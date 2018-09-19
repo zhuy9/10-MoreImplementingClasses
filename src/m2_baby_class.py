@@ -44,7 +44,7 @@ def main():
 #   cause the code above to display the expected output.  Hint: Your
 #   class will need instance variables that you must figure out.
 #
-# Constructor
+# Constructor method
 #     What comes in:
 #        -- self
 #        -- a string for the name of the baby
@@ -66,12 +66,16 @@ def main():
 #        -- self
 #     What goes out:  Nothing (i.e., None).
 #     Side effects:
-#      -- If it is the first time this function has been called since Baby was created or fed
-# 	       -- Prints 'Baby <your baby's name> is sleeping.'
-#      -- If it is the second time this function has been called since baby was created or fed
-# 	       -- Prints 'Baby <your baby's name> is awake.  Time for food.'
-#      -- If it is the third (or more) time this function has been called since baby was created or fed
-# 	       -- Prints 'Baby <your baby's name> is CRYING uncontrollably!  Feed the Baby!'
+#      -- If it is the first time this function has been called
+#           since Baby was created or fed:
+# 	          -- Prints 'Baby <your baby's name> is sleeping.'
+#      -- If it is the second time this function has been called
+#           since baby was created or fed:
+# 	         -- Prints 'Baby <your baby's name> is awake.  Time for food.'
+#      -- If it is the third (or more) time this function has been called
+#           since baby was created or fed:
+# 	         -- Prints:
+#            'Baby <your baby's name> is CRYING uncontrollably!  Feed the Baby!'
 #
 # After implementing this class run this module and compare your output
 #   to the expected output of main.
@@ -89,11 +93,6 @@ def main():
 #          """ Brief description of what objects of the class 'are'. """
 #
 ########################################################################
-
-
-
-
-
 
 
 # ----------------------------------------------------------------------
