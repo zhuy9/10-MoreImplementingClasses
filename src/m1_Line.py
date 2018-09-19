@@ -2,7 +2,7 @@
 A simple   Line   class.
 NOTE: This is NOT rosegraphics -- it is your OWN Line class.
 
-Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Amanda Stouder,
          their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
