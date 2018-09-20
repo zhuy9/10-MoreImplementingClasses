@@ -9,7 +9,10 @@ import rosegraphics as rg
 
 
 def main():
-    """ Calls the test functions. As you implement CapitalT method uncomment the appropriate tests. """
+    """
+    Calls the test functions.
+    As you implement CapitalT method uncomment the appropriate tests.
+    """
     # --------------------------------------------------------------
     #   Uncomment only 1 test at a time as you develop your code.
     # --------------------------------------------------------------
@@ -23,7 +26,10 @@ def main():
 
 
 def run_test_simple_t():
-    """ Tests for the __init__ method and attach_to method. See the simple_t PDF for expected output. """
+    """
+    Tests for the __init__ method and attach_to method.
+    See the simple_t PDF for expected output.
+    """
     print()
     print('--------------------------------------------------')
     print('Testing    __init__    and    attach_to ')
@@ -100,7 +106,10 @@ def run_test_clone():
 
 
 class CapitalT(object):
-    """ Manages a CapitalT graphics object which is made up of two rectangles. """
+    """
+    Manages a CapitalT graphics object which is made up of two rectangles.
+    See the PDFs, especially dimenstions.pdf, to help you understand this.
+    """
 
     def __init__(self, intersection_center, width, height, letter_thickness):
         """
