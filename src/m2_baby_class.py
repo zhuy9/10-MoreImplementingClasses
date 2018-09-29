@@ -101,7 +101,7 @@ class Baby(object):
 
     def feed_baby(self):
         print("Thank you for feeding baby {}!".format(self.name))
-        self.call = 0
+        self.call =0
 
     def hour_passes(self):
         if(self.call == 0):
